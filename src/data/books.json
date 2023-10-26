@@ -1,0 +1,51 @@
+[
+    {
+      "id": "1",
+      "title": "El Juego de Ender",
+      "author": "Orson Scott Card",
+      "editorial": "Ediciones B / Zeta",
+      "description": "La Tierra está amenazada por una especie extraterrestre de insectos que pretende destruir la humanidad. Para vencerlos se precisa la intervención de un genio militar, por lo cual se permite el nacimiento de Ender, tercer hijo de una pareja en un mundo que limita a dos el número de descendientes. Ender se entrenará en una estación espacial, superará a sus rivales y se convertirá en la persona capaz de dirigir las flotas terrestres contra los insectos de otros mundos.",
+      "img": "assets/endersGame.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Juego de tronos",
+      "author": "George R. R. Martin",
+      "editorial": "Gigamesh",
+      "description": "Tras el largo verano, el invierno se acerca a los Siete Reinos. Lord Eddard Stark, señor de Invernalia, deja sus dominios para unirse a la corte de su amigo el rey Robert Baratheon, llamado el Usurpador, hombre díscolo y otrora guerrero audaz cuyas mayores aficiones son comer, beber y engendrar bastardos. Eddard Stark ocupará el cargo de Mano del Rey e intentará desentrañar una maraña de intrigas que pondrá en peligro su vida y la de todos los suyos. En un mundo cuyas estaciones pueden durar decenios y en el que retazos de una magia inmemorial y olvidada surgen en los rincones más sombríos y maravillosos, la traición y la lealtad, la compasión y la sed de venganza, el amor y el poder hacen del juego de tronos una poderosa trampa que atrapará en sus fauces a los personajes... y al lector.",
+      "img": "assets/gameOfThrones.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Memorias de Idhun",
+      "author": "Laura Gallego",
+      "editorial": "Planeta",
+      "description": "En nuestro mundo, un guerrero y un mago exiliados de Idhún han formado la Resistencia, a la que pertenecen también Jack y Victoria, dos adolescentes nacidos en la Tierra. El objetivo del grupo es acabar con el reinado de las serpientes aladas...",
+      "img": "assets/Idhun.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Cien años de soledad",
+      "author": "Gabriel García Márquez",
+      "editorial": "Editorial Sudamericana",
+      "description": "Cien años de soledad es una novela que narra la historia de la familia Buendía en el ficticio pueblo de Macondo. A través de varias generaciones, la novela explora temas como el amor, la soledad, la guerra y la magia, tejiendo un tapiz complejo de realismo mágico.",
+      "img": "assets/100YearsOfSolitude.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Las crónicas de Narnia",
+      "author": "C.S. Leweis",
+      "editorial": "Geoffrey Bles",
+      "description": "Cuatro niños descubren que un armario oculta mucho más que prendas de ropa. Se trata de una puerta a un mundo totalmente desconocido: Narnia. Un país congelado en un invierno eterno y sin Navidad. Los jóvenes, junto con el león Aslan, harán todo lo posible por recuperar el verano, la luz y la alegría.",
+      "img": "assets/narnia.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Matar a un ruiseñor",
+      "author": "Harper Lee",
+      "editorial": "J. B. Lippincott & Co.",
+      "description": "Matar a un ruiseñor es una novela que aborda temas de racismo y justicia en el sur de Estados Unidos durante la Gran Depresión. La historia sigue a la joven Scout Finch y a su hermano Jem mientras su padre, el abogado Atticus Finch, defiende a un hombre negro acusado injustamente.",
+      "img": "assets/ToKillAMockingbird.jpg"
+    }
+  ]
+  

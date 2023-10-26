@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="library">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex h-screen" ng-controller="libraryController">
+    <!-- Primera Mitad con un color (dividido en dos secciones) -->
+    <div class="w-1/3 flex flex-col h-full">
+        <!-- Parte superior con un color -->
+        <div class="h-1/3 bg-blue-400 p-8 flex justify-center items-center flex-col space-y-5">
+            <!-- <p>Filtro y ordenamiento</p> -->
+            <!-- Filtro centrado -->
+            <input type="text" class="w-1/2 p-2 text-center rounded-full" placeholder="Filtrar libros" id="filterInput"
+                ng-model="filterText">
+            <!-- select con editorial y título para ordenar -->
+            <select id="orderSelect" class="w-1/2 p-2 text-center rounded-full" ng-model="orderBy">
+                <option value="default" disabled>Ordenar por...</option>
+                <option value="title" selected>Título</option>
+                <option value="author">Autor</option>
+                <option value="editorial">Editorial</option>
+            </select>
+
+        </div>
+
+        <!-- Parte inferior con otro color -->
+        <div class="h-2/3 bg-amber-200 p-8 flex justify-center items-center">
+            <!-- Listado de libros centrado -->
+            <ul id="bookList"
+                class=" text-center list-none m-0 max-h-full overflow-auto scrollbar px-8">
+                <!-- Los libros se agregarán dinámicamente aquí -->
+                <li class="flex " ng-repeat="book in books | filter:filterText | orderBy:orderBy">
+                    <a href="#/book/{{book.id}}">
+                        <div class="text-3xl grid grid-cols-2 w-full">
+                            <img src="{{book.img}}" alt="Portada del libro" class="w-28 h-28 pb-1">
+                            <div class="text-right text-4xl pr-5">{{book.title}}</div>
+                        </div>
+                    </a>
+                </li>
+                <!-- Repite este patrón para cada libro -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- Segunda Mitad con otro color -->
+    <div class="w-2/3 bg-green-900 overflow-auto scrollbar">
+        <!-- Contenido de la segunda mitad -->
+        <div class="flex items-center justify-center h-full" ng-view>
+
+        </div>
+    </div>
+
+    <!-- Agrega tus scripts AngularJS después de las divisiones -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.3/angular-route.js"></script>
+
+    <!-- Renombra el script a library.js -->
+    <script src="library.js"></script>
+</body>
+
+</html>
